@@ -1,134 +1,36 @@
 {
   "WorldMath": [
-    {
-      "id": 0,
-      "tema": "Derivadas",
-      "ejercicios": [
-        {
-          "id": 0,
-          "consigna": "¿Cuál es la derivada de x^2?",
-          "respuesta": "2x"
-        },
-        {
-          "id": 1,
-          "consigna": "¿Cuál es la derivada de sin(x)?",
-          "respuesta": "cos(x)"
-        }
-      ]
-    },
-    {
-      "id": 1,
-      "tema": "Límites",
-      "ejercicios": [
-        {
-          "id": 0,
-          "consigna": "¿Cuál es el límite de (x^2 - 1)/(x - 1) cuando x → 1?",
-          "respuesta": "2"
-        },
-        {
-          "id": 1,
-          "consigna": "¿Cuál es el límite de sin(x)/x cuando x → 0?",
-          "respuesta": "1"
-        }
-      ]
-    },
-    {
-       "id": 2,
-       "tema": "Estudio de funciones - Análisis completo",
-       "ejercicios": [
-            {
-               "id": 0,
-               "consigna": "Realizar el análisis completo de la función f(x) = 1/3x³ + 1/2x² − 6x + 1.",
-               "pasos": "1. Determinar el dominio de la función.\n2. Calcular la derivada para analizar extremos relativos.\n3. Calcular la segunda derivada para analizar concavidad y puntos de inflexión.\n4. Analizar intervalos de crecimiento y decrecimiento.\n5. Determinar asíntotas (si las hay).\n6. Identificar la imagen (rango).\n7. Graficar la función si es posible.",
-               "respuesta": "Análisis teórico de f(x) = 1/3x³ + 1/2x² − 6x + 1. Polinomio cúbico con coeficientes racionales. Incluye estudio de dominio, derivadas, extremos, concavidad y asíntotas si las hubiera."
-            },
-            {
-               "id": 1,
-               "consigna": "Realizar el análisis completo de la función f(x) = x³ − 3x + 1.",
-               "pasos": "1. Determinar el dominio de la función.\n2. Calcular la derivada para analizar extremos relativos.\n3. Calcular la segunda derivada para analizar concavidad y puntos de inflexión.\n4. Analizar intervalos de crecimiento y decrecimiento.\n5. Determinar asíntotas (si las hay).\n6. Identificar la imagen (rango).\n7. Graficar la función si es posible.",
-               "respuesta": "Análisis teórico de f(x) = x³ − 3x + 1. Polinomio cúbico simple. Incluye estudio de dominio, derivadas, extremos, concavidad y asíntotas si las hubiera."
-            },
-            {
-               "id": 2,
-               "consigna": "Realizar el análisis completo de la función f(x) = 3x⁴ + 4x³ − 12x² − 1.",
-               "pasos": "1. Determinar el dominio de la función.\n2. Calcular la derivada para analizar extremos relativos.\n3. Calcular la segunda derivada para analizar concavidad y puntos de inflexión.\n4. Analizar intervalos de crecimiento y decrecimiento.\n5. Determinar asíntotas (si las hay).\n6. Identificar la imagen (rango).\n7. Graficar la función si es posible.",
-               "respuesta": "Análisis teórico de f(x) = 3x⁴ + 4x³ − 12x² − 1. Polinomio de grado 4. Incluye estudio de dominio, derivadas, extremos, concavidad y asíntotas si las hubiera."
-            },
-            {
-               "id": 3,
-               "consigna": "Realizar el análisis completo de la función f(x) = x + (4/x).",
-               "pasos": "1. Determinar el dominio de la función.\n2. Calcular la derivada para analizar extremos relativos.\n3. Calcular la segunda derivada para analizar concavidad y puntos de inflexión.\n4. Analizar intervalos de crecimiento y decrecimiento.\n5. Determinar asíntotas (si las hay).\n6. Identificar la imagen (rango).\n7. Graficar la función si es posible.",
-               "respuesta": "Análisis teórico de f(x) = x + (4/x). Función racional con asíntota vertical en x=0. Incluye estudio de dominio, derivadas, extremos, concavidad y asíntotas si las hubiera."
-            },
-            {
-               "id": 4,
-               "consigna": "Realizar el análisis completo de la función f(x) = −3/(x−1)².",
-               "pasos": "1. Determinar el dominio de la función.\n2. Calcular la derivada para analizar extremos relativos.\n3. Calcular la segunda derivada para analizar concavidad y puntos de inflexión.\n4. Analizar intervalos de crecimiento y decrecimiento.\n5. Determinar asíntotas (si las hay).\n6. Identificar la imagen (rango).\n7. Graficar la función si es posible.",
-               "respuesta": "Análisis teórico de f(x) = −3/(x−1)². Función racional con asíntota vertical en x=1. Incluye estudio de dominio, derivadas, extremos, concavidad y asíntotas si las hubiera."
-            },
-            {
-               "id": 5,
-               "consigna": "Realizar el análisis completo de la función f(x) = x√(9 − x).",
-               "pasos": "1. Determinar el dominio de la función.\n2. Calcular la derivada para analizar extremos relativos.\n3. Calcular la segunda derivada para analizar concavidad y puntos de inflexión.\n4. Analizar intervalos de crecimiento y decrecimiento.\n5. Determinar asíntotas (si las hay).\n6. Identificar la imagen (rango).\n7. Graficar la función si es posible.",
-               "respuesta": "Análisis teórico de f(x) = x√(9 − x). Función con raíz cuadrada. Incluye estudio de dominio, derivadas, extremos, concavidad y asíntotas si las hubiera."
-            },
-            {
-               "id": 6,
-               "consigna": "Realizar el análisis completo de la función f(x) = {x² − 1 si x ≤ 2; 2(x − 3)² + 1 si x > 2}.",
-               "pasos": "1. Determinar el dominio de la función.\n2. Calcular la derivada para analizar extremos relativos.\n3. Calcular la segunda derivada para analizar concavidad y puntos de inflexión.\n4. Analizar intervalos de crecimiento y decrecimiento.\n5. Determinar asíntotas (si las hay).\n6. Identificar la imagen (rango).\n7. Graficar la función si es posible.",
-               "respuesta": "Análisis teórico de f(x) = {x² − 1 si x ≤ 2; 2(x − 3)² + 1 si x > 2}. Función por partes. Incluye estudio de dominio, derivadas, extremos, concavidad y asíntotas si las hubiera."
-            },
-            {
-               "id": 7,
-               "consigna": "Realizar el análisis completo de la función f(x) = 3xln(x).",
-               "pasos": "1. Determinar el dominio de la función.\n2. Calcular la derivada para analizar extremos relativos.\n3. Calcular la segunda derivada para analizar concavidad y puntos de inflexión.\n4. Analizar intervalos de crecimiento y decrecimiento.\n5. Determinar asíntotas (si las hay).\n6. Identificar la imagen (rango).\n7. Graficar la función si es posible.",
-               "respuesta": "Análisis teórico de f(x) = 3xln(x). Producto de x y logaritmo. Incluye estudio de dominio, derivadas, extremos, concavidad y asíntotas si las hubiera."
-            },
-            {
-               "id": 8,
-               "consigna": "Realizar el análisis completo de la función f(x) = e^(x²+x).",
-               "pasos": "1. Determinar el dominio de la función.\n2. Calcular la derivada para analizar extremos relativos.\n3. Calcular la segunda derivada para analizar concavidad y puntos de inflexión.\n4. Analizar intervalos de crecimiento y decrecimiento.\n5. Determinar asíntotas (si las hay).\n6. Identificar la imagen (rango).\n7. Graficar la función si es posible.",
-               "respuesta": "Análisis teórico de f(x) = e^(x²+x). Función exponencial con cuadrática en el exponente. Incluye estudio de dominio, derivadas, extremos, concavidad y asíntotas si las hubiera."
-            },
-            {
-               "id": 9,
-               "consigna": "Realizar el análisis completo de la función f(x) = xe^(−x²−x).",
-               "pasos": "1. Determinar el dominio de la función.\n2. Calcular la derivada para analizar extremos relativos.\n3. Calcular la segunda derivada para analizar concavidad y puntos de inflexión.\n4. Analizar intervalos de crecimiento y decrecimiento.\n5. Determinar asíntotas (si las hay).\n6. Identificar la imagen (rango).\n7. Graficar la función si es posible.",
-               "respuesta": "Análisis teórico de f(x) = xe^(−x²−x). Producto de x con función exponencial negativa. Incluye estudio de dominio, derivadas, extremos, concavidad y asíntotas si las hubiera."
-            },
-            {
-               "id": 10,
-               "consigna": "Realizar el análisis completo de la función f(x) = e^(1/x).",
-               "pasos": "1. Determinar el dominio de la función.\n2. Calcular la derivada para analizar extremos relativos.\n3. Calcular la segunda derivada para analizar concavidad y puntos de inflexión.\n4. Analizar intervalos de crecimiento y decrecimiento.\n5. Determinar asíntotas (si las hay).\n6. Identificar la imagen (rango).\n7. Graficar la función si es posible.",
-               "respuesta": "Análisis teórico de f(x) = e^(1/x). Exponencial con inversa. Incluye estudio de dominio, derivadas, extremos, concavidad y asíntotas si las hubiera."
-            },
-            {
-               "id": 11,
-               "consigna": "Realizar el análisis completo de la función f(x) = x²ln(x).",
-               "pasos": "1. Determinar el dominio de la función.\n2. Calcular la derivada para analizar extremos relativos.\n3. Calcular la segunda derivada para analizar concavidad y puntos de inflexión.\n4. Analizar intervalos de crecimiento y decrecimiento.\n5. Determinar asíntotas (si las hay).\n6. Identificar la imagen (rango).\n7. Graficar la función si es posible.",
-               "respuesta": "Análisis teórico de f(x) = x²ln(x). Producto de polinómica y logarítmica. Incluye estudio de dominio, derivadas, extremos, concavidad y asíntotas si las hubiera."
-            },
-            {
-               "id": 12,
-               "consigna": "Realizar el análisis completo de la función f(x) = e^(−x²).",
-               "pasos": "1. Determinar el dominio de la función.\n2. Calcular la derivada para analizar extremos relativos.\n3. Calcular la segunda derivada para analizar concavidad y puntos de inflexión.\n4. Analizar intervalos de crecimiento y decrecimiento.\n5. Determinar asíntotas (si las hay).\n6. Identificar la imagen (rango).\n7. Graficar la función si es posible.",
-               "respuesta": "Análisis teórico de f(x) = e^(−x²). Exponencial negativa cuadrática. Incluye estudio de dominio, derivadas, extremos, concavidad y asíntotas si las hubiera."
-            },
-            {
-               "id": 13,
-               "consigna": "Realizar el análisis completo de la función f(x) = x/(1+x²).",
-               "pasos": "1. Determinar el dominio de la función.\n2. Calcular la derivada para analizar extremos relativos.\n3. Calcular la segunda derivada para analizar concavidad y puntos de inflexión.\n4. Analizar intervalos de crecimiento y decrecimiento.\n5. Determinar asíntotas (si las hay).\n6. Identificar la imagen (rango).\n7. Graficar la función si es posible.",
-               "respuesta": "Análisis teórico de f(x) = x/(1+x²). Racional simple. Incluye estudio de dominio, derivadas, extremos, concavidad y asíntotas si las hubiera."
-            },
-            {
-               "id": 14,
-               "consigna": "Realizar el análisis completo de la función f(x) = 1/(1−x²).",
-               "pasos": "1. Determinar el dominio de la función.\n2. Calcular la derivada para analizar extremos relativos.\n3. Calcular la segunda derivada para analizar concavidad y puntos de inflexión.\n4. Analizar intervalos de crecimiento y decrecimiento.\n5. Determinar asíntotas (si las hay).\n6. Identificar la imagen (rango).\n7. Graficar la función si es posible.",
-               "respuesta": "Análisis teórico de f(x) = 1/(1−x²). Racional con asíntotas verticales. Incluye estudio de dominio, derivadas, extremos, concavidad y asíntotas si las hubiera."
-            }
-         ]
-      }
-   ]
-}
+	{
+	  "id": 0,
+	  "tema": "Derivadas",
+	  "ejercicios": [
+		{
+		  "id": 0,
+		  "consigna": "¿Cuál es la derivada de x^2?",
+		  "respuesta": "2x"
+		},
+		{
+		  "id": 1,
+		  "consigna": "¿Cuál es la derivada de sin(x)?",
+		  "respuesta": "cos(x)"
+		}
+	  ]
+	},
+	{
+	  "id": 1,
+	  "tema": "Límites",
+	  "ejercicios": [
+		{
+		  "id": 0,
+		  "consigna": "¿Cuál es el límite de (x^2 - 1)/(x - 1) cuando x → 1?",
+		  "respuesta": "2"
+		},
+		{
+		  "id": 1,
+		  "consigna": "¿Cuál es el límite de sin(x)/x cuando x → 0?",
+		  "respuesta": "1"
+		}
+	  ]
+	}
   ]
 }
