@@ -1,36 +1,56 @@
 {
   "WorldMath": [
-	{
-	  "id": 0,
-	  "tema": "Derivadas",
-	  "ejercicios": [
-		{
-		  "id": 0,
-		  "consigna": "¿Cuál es la derivada de x^2?",
-		  "respuesta": "2x"
-		},
-		{
-		  "id": 1,
-		  "consigna": "¿Cuál es la derivada de sin(x)?",
-		  "respuesta": "cos(x)"
-		}
-	  ]
-	},
-	{
-	  "id": 1,
-	  "tema": "Límites",
-	  "ejercicios": [
-		{
-		  "id": 0,
-		  "consigna": "¿Cuál es el límite de (x^2 - 1)/(x - 1) cuando x → 1?",
-		  "respuesta": "2"
-		},
-		{
-		  "id": 1,
-		  "consigna": "¿Cuál es el límite de sin(x)/x cuando x → 0?",
-		  "respuesta": "1"
-		}
-	  ]
-	}
+    {
+      "id": 0,
+      "tema": "Derivadas",
+      "ejercicios": [
+        {
+          "id": 0,
+          "consigna": "¿Cuál es la derivada de x^2?",
+          "pasos": [
+            "Identificamos la función: f(x) = x^2",
+            "Aplicamos la regla de potencia: d/dx[x^n] = n * x^(n-1)",
+            "Entonces: d/dx[x^2] = 2x"
+          ],
+          "respuesta": "2x"
+        },
+        {
+          "id": 1,
+          "consigna": "¿Cuál es la derivada de sin(x)?",
+          "pasos": [
+            "La función es f(x) = sin(x)",
+            "Sabemos que la derivada de sin(x) es cos(x)",
+            "Resultado: d/dx[sin(x)] = cos(x)"
+          ],
+          "respuesta": "cos(x)"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "tema": "Límites",
+      "ejercicios": [
+        {
+          "id": 0,
+          "consigna": "¿Cuál es el límite de (x^2 - 1)/(x - 1) cuando x → 1?",
+          "pasos": [
+            "Notamos que si sustituimos x = 1 obtenemos 0/0, una forma indeterminada.",
+            "Factorizamos el numerador: x^2 - 1 = (x - 1)(x + 1)",
+            "Simplificamos la expresión: [(x - 1)(x + 1)] / (x - 1) = x + 1",
+            "Sustituyendo x = 1: 1 + 1 = 2"
+          ],
+          "respuesta": "2"
+        },
+        {
+          "id": 1,
+          "consigna": "¿Cuál es el límite de sin(x)/x cuando x → 0?",
+          "pasos": [
+            "Este es un límite notable.",
+            "Por definición: lim[x→0] sin(x)/x = 1"
+          ],
+          "respuesta": "1"
+        }
+      ]
+    }
   ]
 }
