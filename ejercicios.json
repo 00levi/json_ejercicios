@@ -71,7 +71,7 @@
             "$50 m = \\frac{-400 m/s}{a} + \\frac{1}{2} \\cdot a \\cdot \\frac{200 m/s}{a^2}$",
             "$50 m = \\frac{-400 m/s}{a} + \\frac{1}{2} \\cdot \\frac{200 m/s \\cdot a}{a^2}$",
             "$50 m = \\frac{-400 m/s}{a} + \\frac{1}{2} \\cdot \\frac{200 m/s}{a}$",
-            "$50 m = \\frac{-400 m/s}{a} + \\frac{-200 m/s}{a}$",
+            "$50 m = \\frac{-400 m/s}{a} + \\frac{200 m/s}{a}$",
             "$50 m = \\frac{-200 m/s}{a}$",
             "$50 m \\cdot a = -200 m/s$",
             "$a = \\frac{-200 m/s}{50 m}$",
