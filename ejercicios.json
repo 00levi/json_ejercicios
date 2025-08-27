@@ -51,6 +51,38 @@
           "respuesta": "1"
         }
       ]
+    },
+    {
+      "id": 2,
+      "tema": "Fisica - mruv",
+      "ejercicios": [
+        {
+          "id": 0,
+          "consigna": "Un auto viaja por una ruta a 20 m/s cuando observa un obstáculo delante de él a 50 m. a) ¿Cómo deben ser los sentidos de los vectores aceleración y velocidad para que el auto frene?.",
+          "pasos": [
+            "nos da todos los datos primero en el (origen) nos da t = 0s, x=0m, v=20m/s, a=? y ahora en la (final) nos da t=?, x=50m, v=0m/s",
+            "esto nos da los datos que nos faltan que seria a=? y t=? y todos los demas nos da la ecucion horaria de mruv de el auto: $x=0 m + 20 m/s \\cdot (t-0s)+ 1/2 \\cdot a \\cdot (t-0s)^2$ y $v=20 m/s + a \\cdot (t-0s)$",
+            "ahora que tenemos la ecuaciones horaria remplazamos los valores X, T y V con los datos del (final) para sacar la t=? y cuando se saque T=? lo metemos en la ecuacion restante y nos dara a=?",
+            "asi: $0 m/s=20 m/s + a \\cdot (t-0s)$",
+            "$0 m/s - 20 m/s = a \\cdot (t-0s)$",
+            "$\\frac{- 20 m/s}{a}  = t$",
+            "listo sacamos t ahora sacamos a metiendo T en la primera ecuacion horaria: $50 m = 0 m + 20 m/s \\cdot (\\frac{- 20 m/s}{a}-0s)+ 1/2 \\cdot a \\cdot (\\frac{- 20 m/s}{a}-0s)^2$ ",
+            "$50 m =  20 m/s \\cdot (\\frac{- 20 m/s}{a})+ 1/2 \\cdot a \\cdot (\\frac{- 20 m/s}{a})^2$",
+            "$50 m = \\frac{-400 m/s}{a} + \\frac{1}{2} \\cdot a \\cdot \\frac{200 m/s}{a^2}$",
+            "$50 m = \\frac{-400 m/s}{a} + \\frac{1}{2} \\cdot \\frac{200 m/s \\cdot a}{a^2}$",
+            "$50 m = \\frac{-400 m/s}{a} + \\frac{1}{2} \\cdot \\frac{200 m/s}{a}$",
+            "$50 m = \\frac{-400 m/s}{a} + \\frac{-200 m/s}{a}$",
+            "$50 m = \\frac{-200 m/s}{a}$",
+            "$50 m \\cdot a = -200 m/s$",
+            "$a = \\frac{-200 m/s}{50 m}$",
+            "$a = - 4 m/s^2$",
+            "Ese signo negativo de la aceleración nos indica que el vector velocididad y el vector aceleración son opuestos. Si calculás t remplazando el a :$t = \\frac{- 20 m/s}{-4 m/s^2}$",
+            "te da: t = 5 s",
+            "respuesta:opuestos"
+          ],
+          "respuesta": "opuestos"
+        }
+      ]
     }
   ]
 }
