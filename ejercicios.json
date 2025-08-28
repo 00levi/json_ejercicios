@@ -71,13 +71,13 @@
           "pasos": [
             "Este es un límite notable.",
             "(𝑃 + 3𝑄)(𝑥) = $3𝑥^4 + 2𝑥^3 − 3$, cp(𝑃 + 3𝑄) = 3 y gr(𝑃 + 3𝑄) = 4",
-            "respuesta: $3𝑥^4 + 2𝑥^3 − 3$, cp(𝑃 + 3𝑄) = 3 y gr(𝑃 + 3𝑄) = 4"
+            "respuesta: $3𝑥^4 + 2𝑥^3 − 3$, cp = 3, gr = 4"
           ],
           "respuesta": "$3𝑥^4 + 2𝑥^3 − 3$, cp = 3, gr= 4"
         },
         {
           "id": 2,
-          "consigna": "Calcular $(𝑃 + 2\\\\cdot 𝑥)\\\\cdot 𝑥 \\\\cdot 𝑄^2$, indicando en cada caso el coeficiente principal y el grado.a) 𝑃(𝑥) = 2𝑥2 − 3, 𝑄(𝑥) = 𝑥4",
+          "consigna": "Calcular $(𝑃 + 2\\cdot 𝑥) \\cdot 𝑥 \\cdot 𝑄^2$, indicando en cada caso el coeficiente principal y el grado.a) 𝑃(𝑥) = 2𝑥2 − 3, 𝑄(𝑥) = 𝑥4",
           "pasos": [
             "Este es un límite notable.",
             "((𝑃 + 2𝑥)𝑥𝑄2)(𝑥) = $2𝑥^11 + 2𝑥^10 − 3𝑥^9$, cp((𝑃 + 2𝑥)𝑥𝑄2) = 2 y gr((𝑃 + 2𝑥)𝑥𝑄2) = 11",
