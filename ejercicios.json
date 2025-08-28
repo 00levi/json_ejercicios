@@ -58,7 +58,7 @@
       "ejercicios": [
         {
           "id": 0,
-          "consigna": "Calcular 𝑃𝑄, indicando en cada caso el coeficiente principal y el grado.a)$ 𝑃(𝑥) = 2𝑥^2 − 3, 𝑄(𝑥) = 𝑥^4$",
+          "consigna": "Calcular 𝑃𝑄, indicando en cada caso el coeficiente principal y el grado.a)$ 𝑃(𝑥) = 2𝑥^2 − 3$, $𝑄(𝑥) = 𝑥^4$",
           "pasos": [
             "(𝑃𝑄)(𝑥) = $2𝑥^6 − 3𝑥^4$, cp(𝑃𝑄) = 2 y gr(𝑃𝑄) = 6",
             "respuesta: $2𝑥^6 − 3𝑥^4$, cp= 2 , gr= 6"
