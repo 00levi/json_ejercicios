@@ -183,10 +183,12 @@
             "$a + (b + c)x^2 + 4cx + 3c$",
             "$(b + c)x^2 + 4cx + a + 3c$",
             "ahora igualamos coeficiente por coeficiente con $x^2 + 8x$ y despejando conseguiremos a,b,c",
-            "1 = b + c \\8 = 4c \\0 = a + 3",
-            "respuesta: P = 3"
+            "$x^2 = (b + c)x^2$ ---> $\\frac{x^2}{x^2} = b + c$ ---> 1 = b + c ---> como c = 2, b = -1",
+            "$8x = 4cx$ ---> $\\frac{8x}{x} = 4c$ ---> \\frac{8}{4} = c ---> c = 2",
+            "$0 = a + 3c$ ---> como c = 2, a = -6",
+            "respuesta: a,b,c = (-6 , -1 , 2)"
           ],
-          "respuesta": "a = "
+          "respuesta": "a,b,c = (-6 , -1 , 2)"
         }
       ]
     },
