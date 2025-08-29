@@ -54,7 +54,7 @@
     },
     {
       "id": 2,
-      "tema": "polinomicas",
+      "tema": "Polinomios",
       "ejercicios": [
         {
           "id": 0,
@@ -78,10 +78,115 @@
           "id": 2,
           "consigna": "Calcular $(𝑃 + 2\\cdot 𝑥) \\cdot 𝑥 \\cdot 𝑄^2$, indicando en cada caso el coeficiente principal y el grado.a) $𝑃(𝑥) = 2𝑥^2 − 3$, $𝑄(𝑥) = 𝑥^4$",
           "pasos": [
-            "((𝑃 + 2𝑥)𝑥𝑄2)(𝑥) = $2𝑥^11 + 2𝑥^10 − 3𝑥^9$, cp((𝑃 + 2𝑥)𝑥𝑄2) = 2 y gr((𝑃 + 2𝑥)𝑥𝑄2) = 11",
+            "((𝑃 + 2𝑥)𝑥𝑄^2)(𝑥) = $2𝑥^11 + 2𝑥^10 − 3𝑥^9$, cp((𝑃 + 2𝑥)𝑥𝑄2) = 2 y gr((𝑃 + 2𝑥)𝑥𝑄2) = 11",
             "respuesta: $2x^11 + 2x^10 − 3x^9$, cp = 2, gr = 11"
           ],
           "respuesta": "2x^11 + 2x^10 - 3x^9, cp=2, gr=11"
+        },
+        {
+          "id": 3,
+          "consigna": "Calcular 𝑃𝑄, indicando en cada caso el coeficiente principal y el grado.b) $P(x) = 3x^2 − 2x − 1$, $Q(x) = −x^2 + 1$",
+          "pasos": [
+            "(PQ)(x) = $−3x^4 + 2x^3 + 4x^2 − 2x − 1$, cp(PQ) = −3 y gr(PQ) = 4",
+            "respuesta:  $−3x^4 + 2x^3 + 4x^2 − 2x − 1$, cp = −3, gr = 4"
+          ],
+          "respuesta": ""
+        },
+        {
+          "id": 4,
+          "consigna": "Calcular 𝑃 + 3𝑄 , indicando en cada caso el coeficiente principal y el grado.b) $P(x) = 3x^2 − 2x − 1$, $Q(x) = −x^2 + 1$",
+          "pasos": [
+            "(P + 3Q)(x) = $−2x + 2$, cp(P + 3Q) = −2 y gr(P + 3Q) = 1",
+            "respuesta: $−2x + 2$, cp = −2, gr = 1"
+          ],
+          "respuesta": ""
+        },
+        {
+          "id": 5,
+          "consigna": "Calcular $(𝑃 + 2\\cdot 𝑥) \\cdot 𝑥 \\cdot 𝑄^2$, indicando en cada caso el coeficiente principal y el grado.b) $P(x) = 3x^2 − 2x − 1$, $Q(x) = −x^2 + 1$",
+          "pasos": [
+            "((P + 2x)xQ^2)(x) = $3x^7 − 7x^5 + 5x^3 − x$, cp((P + 2x)xQ^2) = 3 y gr((P + 2x)xQ^2) = 7",
+            "respuesta: $3x^7 − 7x^5 + 5x^3 − x$, cp = 3, gr = 7"
+          ],
+          "respuesta": ""
+        },
+        {
+          "id": 6,
+          "consigna": "Calcular 𝑃𝑄, indicando en cada caso el coeficiente principal y el grado.c) $P(x) = x^2 − x$, $Q(x) = −x^2 + 3$",
+          "pasos": [
+            "(PQ)(x) = $−x^4 + x^3 + 3x^2 − 3x$, cp(PQ) = −1 y gr(PQ) = 4",
+            "respuesta:  $−x^4 + x^3 + 3x^2 − 3x$, cp = −1, gr = 4"
+          ],
+          "respuesta": ""
+        },
+        {
+          "id": 7,
+          "consigna": "Calcular 𝑃 + 3𝑄 , indicando en cada caso el coeficiente principal y el grado.c) $P(x) = x^2 − x$, $Q(x) = −x^2 + 3$",
+          "pasos": [
+            "(P + 3Q)(x) = $−2x^2 − x + 9$, cp(P + 3Q) = −2 y gr(P + 3Q) = 2",
+            "respuesta: $−2x^2 − x + 9$, cp = −2, gr = 2"
+          ],
+          "respuesta": ""
+        },
+        {
+          "id": 8,
+          "consigna": "Calcular $(𝑃 + 2\\cdot 𝑥) \\cdot 𝑥 \\cdot 𝑄^2$, indicando en cada caso el coeficiente principal y el grado.c) $P(x) = x^2 − x$, $Q(x) = −x^2 + 3$",
+          "pasos": [
+            "((P + 2x)xQ^2)(x) = $x^7 + x^6 − 6x^5 − 6x^4 + 9x^3 + 9x^2$, cp((P + 2x)xQ^2) = 3 y gr((P + 2x)xQ^2) = 7",
+            "respuesta: $x^7 + x^6 − 6x^5 − 6x^4 + 9x^3 + 9x^2$, cp = 3, gr = 7"
+          ],
+          "respuesta": ""
+        },
+        {
+          "id": 9,
+          "consigna": "Calcular 𝑃𝑄, indicando en cada caso el coeficiente principal y el grado.d) $P(x) = −2x + 3$, $Q(x) = x + 2$",
+          "pasos": [
+            "(PQ)(x) = $−2x^2 − x + 6$, cp(PQ) = −2 y gr(PQ) = 2",
+            "respuesta:  $−2x^2 − x + 6$, cp = −2, gr = 2"
+          ],
+          "respuesta": ""
+        },
+        {
+          "id": 10,
+          "consigna": "Calcular 𝑃 + 3𝑄 , indicando en cada caso el coeficiente principal y el grado.d) $P(x) = −2x + 3$, $Q(x) = x + 2$",
+          "pasos": [
+            "(P + 3Q)(x) = $x + 9$, cp(P + 3Q) = 1 y gr(P + 3Q) = 1",
+            "respuesta: $x + 9$, cp = 1, gr = 1"
+          ],
+          "respuesta": ""
+        },
+        {
+          "id": 11,
+          "consigna": "Calcular $(𝑃 + 2\\cdot 𝑥) \\cdot 𝑥 \\cdot 𝑄^2$, indicando en cada caso el coeficiente principal y el grado.d) $P(x) = −2x + 3$, $Q(x) = x + 2$",
+          "pasos": [
+            "((P + 2x)xQ^2)(x) = $3x^3 + 12x^2 + 12x$, cp((P + 2x)xQ^2) = 3 y gr((P + 2x)xQ^2) = 3",
+            "respuesta: $3x^3 + 12x^2 + 12x$, cp = 3, gr = 3"
+          ],
+          "respuesta": ""
+        },
+        {
+          "id": 12,
+          "consigna": "Determinar el grado del polinomio P sabiendo que $(1 + x^2 \\cdot Q)\\cdot x\\cdot P$ tiene grado 11 y que Q es un polinomio de grado 5.",
+          "pasos": [
+            "es razonamiento los $x^2 \\cdot Q^5$ se suman eso da $xQ^7$ el 1 + no importa por que pide saber el grado de P,($xQ^7$)\\cdot x = $xQ^8$ y queda que 11-8 = 3 por ende P = 3 ",
+            "respuesta: P = 3"
+          ],
+          "respuesta": "P = 3"
+        },
+        {
+          "id": 12,
+          "consigna": "Hallar, si existen, a, b, c ∈ R tales que $x^2 + 8x = a + bx^2 + c(x + 1)(x + 3)$.",
+          "pasos": [
+            "Empecemos por este: $a + bx^2 + c(x + 1)(x + 3)$",
+            "$a + bx^2 + c(x^2 + 3x + x + 3)$",
+            "$a + bx^2 + cx^2 + 3cx + cx + 3c$",
+            "$a + (b + c)x^2 + 4cx + 3c$",
+            "$(b + c)x^2 + 4cx + a + 3c$",
+            "ahora igualamos coeficiente por coeficiente con $x^2 + 8x$ y despejando conseguiremos a,b,c",
+            "\[\begin{cases}1 = b + c \\8 = 4c \\0 = a + 3c\end{cases}\]",
+            "respuesta: P = 3"
+          ],
+          "respuesta": "a = "
         }
       ]
     },
