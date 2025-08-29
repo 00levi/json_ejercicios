@@ -183,7 +183,7 @@
             "$a + (b + c)x^2 + 4cx + 3c$",
             "$(b + c)x^2 + 4cx + a + 3c$",
             "ahora igualamos coeficiente por coeficiente con $x^2 + 8x$ y despejando conseguiremos a,b,c",
-            "\begin{cases}1 = b + c \\8 = 4c \\0 = a + 3c\end{cases}",
+            "1 = b + c \\8 = 4c \\0 = a + 3",
             "respuesta: P = 3"
           ],
           "respuesta": "a = "
