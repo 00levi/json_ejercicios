@@ -61,27 +61,27 @@
           "consigna": "Calcular 𝑃𝑄, indicando en cada caso el coeficiente principal y el grado.a)$ 𝑃(𝑥) = 2𝑥^2 − 3$, $𝑄(𝑥) = 𝑥^4$",
           "pasos": [
             "(𝑃𝑄)(𝑥) = $2𝑥^6 − 3𝑥^4$, cp(𝑃𝑄) = 2 y gr(𝑃𝑄) = 6",
-            "respuesta: $2𝑥^6 − 3𝑥^4$, cp= 2 , gr= 6"
+            "respuesta: $2x^6 − 3x^4$, cp= 2 , gr= 6"
           ],
-          "respuesta": "2𝑥^6 − 3𝑥^4, cp= 2 , gr= 6"
+          "respuesta": "2x^6 − 3x^4, cp= 2 , gr= 6"
         },
         {
           "id": 1,
           "consigna": "Calcular 𝑃 + 3𝑄 , indicando en cada caso el coeficiente principal y el grado.a) $𝑃(𝑥) = 2𝑥^2 − 3$, $𝑄(𝑥) = 𝑥^4$",
           "pasos": [
             "(𝑃 + 3𝑄)(𝑥) = $3𝑥^4 + 2𝑥^3 − 3$, cp(𝑃 + 3𝑄) = 3 y gr(𝑃 + 3𝑄) = 4",
-            "respuesta: $3𝑥^4 + 2𝑥^3 − 3$, cp = 3, gr = 4"
+            "respuesta: $3x^4 + 2x^3 − 3$, cp = 3, gr = 4"
           ],
-          "respuesta": "3𝑥^4 + 2𝑥^3 − 3, cp = 3, gr= 4"
+          "respuesta": "3x^4 + 2x^3 − 3, cp = 3, gr= 4"
         },
         {
           "id": 2,
           "consigna": "Calcular $(𝑃 + 2\\cdot 𝑥) \\cdot 𝑥 \\cdot 𝑄^2$, indicando en cada caso el coeficiente principal y el grado.a) $𝑃(𝑥) = 2𝑥^2 − 3$, $𝑄(𝑥) = 𝑥^4$",
           "pasos": [
             "((𝑃 + 2𝑥)𝑥𝑄2)(𝑥) = $2𝑥^11 + 2𝑥^10 − 3𝑥^9$, cp((𝑃 + 2𝑥)𝑥𝑄2) = 2 y gr((𝑃 + 2𝑥)𝑥𝑄2) = 11",
-            "respuesta: $2𝑥^11 + 2𝑥^10 − 3𝑥^9$, cp = 2, gr = 11"
+            "respuesta: $2x^11 + 2x^10 − 3x^9$, cp = 2, gr = 11"
           ],
-          "respuesta": "2𝑥^11 + 2𝑥^10 − 3𝑥^9, cp = 2, gr = 11"
+          "respuesta": "2x^11 + 2x^10 − 3x^9, cp = 2, gr = 11"
         }
       ]
     },
