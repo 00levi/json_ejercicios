@@ -69,10 +69,10 @@
           "id": 1,
           "consigna": "Calcular 𝑃 + 3𝑄 , indicando en cada caso el coeficiente principal y el grado.a) $𝑃(𝑥) = 2𝑥^2 − 3$, $𝑄(𝑥) = 𝑥^4$",
           "pasos": [
-            "(𝑃 + 3𝑄)(𝑥) = $3𝑥^4 + 2𝑥^3 − 3$, cp(𝑃 + 3𝑄) = 3 y gr(𝑃 + 3𝑄) = 4",
-            "respuesta: $3x^4 + 2x^3 − 3$, cp = 3, gr = 4"
+            "(𝑃 + 3𝑄)(𝑥) = $3𝑥^4 + 2𝑥^2 − 3$, cp(𝑃 + 3𝑄) = 3 y gr(𝑃 + 3𝑄) = 4",
+            "respuesta: $3x^4 + 2x^2 − 3$, cp = 3, gr = 4"
           ],
-          "respuesta": "3x^4 + 2x^3 - 3, cp=3, gr=4"
+          "respuesta": "3x^4 + 2x^2 - 3, cp=3, gr=4"
         },
         {
           "id": 2,
