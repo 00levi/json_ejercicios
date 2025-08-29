@@ -175,7 +175,7 @@
         },
         {
           "id": 12,
-          "consigna": "Hallar, si existen, a, b, c ∈ R tales que $x^2 + 8x = a + bx^2 + c(x + 1)(x + 3)$.",
+          "consigna": "Hallar, si existen, a, b, c ∈ R tales que $x^2 + 8x = a + bx^2 + c(x + 1)(x + 3)$",
           "pasos": [
             "Empecemos por este: $a + bx^2 + c(x + 1)(x + 3)$",
             "$a + bx^2 + c(x^2 + 3x + x + 3)$",
@@ -184,7 +184,7 @@
             "$(b + c)x^2 + 4cx + a + 3c$",
             "ahora igualamos coeficiente por coeficiente con $x^2 + 8x$ y despejando conseguiremos a,b,c",
             "$x^2 = (b + c)x^2$ ---> $\\frac{x^2}{x^2} = b + c$ ---> 1 = b + c ---> como c = 2, b = -1",
-            "$8x = 4cx$ ---> $\\frac{8x}{x} = 4c$ ---> \\frac{8}{4} = c ---> c = 2",
+            "$8x = 4cx$ ---> $\\frac{8x}{x} = 4c$ ---> $\\frac{8}{4} = c$ ---> c = 2",
             "$0 = a + 3c$ ---> como c = 2, a = -6",
             "respuesta: a,b,c = (-6 , -1 , 2)"
           ],
