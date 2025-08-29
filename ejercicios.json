@@ -81,7 +81,7 @@
             "((𝑃 + 2𝑥)𝑥𝑄^2)(𝑥) = $2𝑥^11 + 2𝑥^10 − 3𝑥^9$, cp((𝑃 + 2𝑥)𝑥𝑄2) = 2 y gr((𝑃 + 2𝑥)𝑥𝑄2) = 11",
             "respuesta: $2x^11 + 2x^10 − 3x^9$, cp = 2, gr = 11"
           ],
-          "respuesta": "2x^11 + 2x^10 - 3x^9, cp=2, gr=11"
+          "respuesta": "2x^11 + 2x^10 -3x^9, cp = 2, gr = 11"
         },
         {
           "id": 3,
@@ -90,7 +90,7 @@
             "(PQ)(x) = $−3x^4 + 2x^3 + 4x^2 − 2x − 1$, cp(PQ) = −3 y gr(PQ) = 4",
             "respuesta:  $−3x^4 + 2x^3 + 4x^2 − 2x − 1$, cp = −3, gr = 4"
           ],
-          "respuesta": ""
+          "respuesta": "-3x^4 + 2x^3 +4x^2 + 2x - 1, cp = -3, gr = 4"
         },
         {
           "id": 4,
@@ -99,7 +99,7 @@
             "(P + 3Q)(x) = $−2x + 2$, cp(P + 3Q) = −2 y gr(P + 3Q) = 1",
             "respuesta: $−2x + 2$, cp = −2, gr = 1"
           ],
-          "respuesta": ""
+          "respuesta": "-2x + 2, cp = -2, gr = 1"
         },
         {
           "id": 5,
@@ -108,7 +108,7 @@
             "((P + 2x)xQ^2)(x) = $3x^7 − 7x^5 + 5x^3 − x$, cp((P + 2x)xQ^2) = 3 y gr((P + 2x)xQ^2) = 7",
             "respuesta: $3x^7 − 7x^5 + 5x^3 − x$, cp = 3, gr = 7"
           ],
-          "respuesta": ""
+          "respuesta": "3x^7 -7x^5 + 5x^3 - x, cp = 3, gr = 7"
         },
         {
           "id": 6,
@@ -117,7 +117,7 @@
             "(PQ)(x) = $−x^4 + x^3 + 3x^2 − 3x$, cp(PQ) = −1 y gr(PQ) = 4",
             "respuesta:  $−x^4 + x^3 + 3x^2 − 3x$, cp = −1, gr = 4"
           ],
-          "respuesta": ""
+          "respuesta": "-x^4 + x^3 + 3x^2 - 3x, cp = -1, gr = 4"
         },
         {
           "id": 7,
@@ -126,7 +126,7 @@
             "(P + 3Q)(x) = $−2x^2 − x + 9$, cp(P + 3Q) = −2 y gr(P + 3Q) = 2",
             "respuesta: $−2x^2 − x + 9$, cp = −2, gr = 2"
           ],
-          "respuesta": ""
+          "respuesta": "-2x^2 - x + 9,cp = -2, gr = 2"
         },
         {
           "id": 8,
@@ -135,7 +135,7 @@
             "((P + 2x)xQ^2)(x) = $x^7 + x^6 − 6x^5 − 6x^4 + 9x^3 + 9x^2$, cp((P + 2x)xQ^2) = 3 y gr((P + 2x)xQ^2) = 7",
             "respuesta: $x^7 + x^6 − 6x^5 − 6x^4 + 9x^3 + 9x^2$, cp = 3, gr = 7"
           ],
-          "respuesta": ""
+          "respuesta": "x^7 + x^6 -6x^5 -6x^4 + 9x^3 + 9x^2, cp = 3, gr = 7"
         },
         {
           "id": 9,
@@ -144,7 +144,7 @@
             "(PQ)(x) = $−2x^2 − x + 6$, cp(PQ) = −2 y gr(PQ) = 2",
             "respuesta:  $−2x^2 − x + 6$, cp = −2, gr = 2"
           ],
-          "respuesta": ""
+          "respuesta": "-2x^2 - x +6, cp = -2, gr = 2"
         },
         {
           "id": 10,
@@ -153,7 +153,7 @@
             "(P + 3Q)(x) = $x + 9$, cp(P + 3Q) = 1 y gr(P + 3Q) = 1",
             "respuesta: $x + 9$, cp = 1, gr = 1"
           ],
-          "respuesta": ""
+          "respuesta": "x + 9, cp = 1, gr = 1"
         },
         {
           "id": 11,
@@ -162,7 +162,7 @@
             "((P + 2x)xQ^2)(x) = $3x^3 + 12x^2 + 12x$, cp((P + 2x)xQ^2) = 3 y gr((P + 2x)xQ^2) = 3",
             "respuesta: $3x^3 + 12x^2 + 12x$, cp = 3, gr = 3"
           ],
-          "respuesta": ""
+          "respuesta": "3x^3 + 12x^2 + 12x, cp= 3, gr = 3"
         },
         {
           "id": 12,
@@ -188,7 +188,7 @@
             "$0 = a + 3c$ ---> como c = 2, a = -6",
             "respuesta: a,b,c = (-6 , -1 , 2)"
           ],
-          "respuesta": "a,b,c = (-6 , -1 , 2)"
+          "respuesta": "a,b,c = ( -6, -1, 2 )"
         }
       ]
     },
