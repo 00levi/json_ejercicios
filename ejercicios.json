@@ -58,137 +58,394 @@
       "ejercicios": [
         {
           "id": 0,
-          "consigna": "Calcular 𝑃𝑄, indicando en cada caso el coeficiente principal y el grado.a)$ 𝑃(𝑥) = 2𝑥^2 − 3$, $𝑄(𝑥) = 𝑥^4$",
+          "consigna": "Ejercicio 1.a — Calcular $$PQ$$, $$P+3Q$$ y $$(P+2x)\\,x\\,Q^2$$ indicando en cada caso el coeficiente principal y el grado. $$P(x)=2x^2-3,\\;Q(x)=x^4$$",
           "pasos": [
-            "(𝑃𝑄)(𝑥) = $2𝑥^6 − 3𝑥^4$, cp(𝑃𝑄) = 2 y gr(𝑃𝑄) = 6",
-            "respuesta: $2x^6 - 3x^4$, cp= 2 , gr= 6"
+            "Producto: $$PQ=(2x^2-3)(x^4)=2x^6-3x^4$$ ⇒ $$cp=2,\\;gr=6$$",
+            "Suma: $$P+3Q=(2x^2-3)+3x^4=3x^4+2x^2-3$$ ⇒ $$cp=3,\\;gr=4$$",
+            "Potencia: $$Q^2=(x^4)^2=x^8$$",
+            "Suma previa: $$P+2x=2x^2-3+2x=2x^2+2x-3$$ y luego por $$x$$: $$(P+2x)\\,x=(2x^2+2x-3)x=2x^3+2x^2-3x$$",
+            "Producto final: $$(P+2x)\\,x\\,Q^2=(2x^3+2x^2-3x)\\,x^8=2x^{11}+2x^{10}-3x^{9}$$ ⇒ $$cp=2,\\;gr=11$$"
           ],
-          "respuesta": "2x^6 - 3x^4, cp=2, gr=6"
+          "respuesta": "PQ = 2x^{6}-3x^{4};\\; P+3Q = 3x^{4}+2x^{2}-3;\\; (P+2x)\\,x\\,Q^2 = 2x^{11}+2x^{10}-3x^{9}"
         },
         {
           "id": 1,
-          "consigna": "Calcular 𝑃 + 3𝑄 , indicando en cada caso el coeficiente principal y el grado.a) $𝑃(𝑥) = 2𝑥^2 − 3$, $𝑄(𝑥) = 𝑥^4$",
+          "consigna": "Ejercicio 1.b — Calcular $$PQ$$, $$P+3Q$$ y $$(P+2x)\\,x\\,Q^2$$ indicando en cada caso el coeficiente principal y el grado. $$P(x)=3x^2-2x-1,\\;Q(x)=-x^2+1$$",
           "pasos": [
-            "(𝑃 + 3𝑄)(𝑥) = $3𝑥^4 + 2𝑥^2 − 3$, cp(𝑃 + 3𝑄) = 3 y gr(𝑃 + 3𝑄) = 4",
-            "respuesta: $3x^4 + 2x^2 − 3$, cp = 3, gr = 4"
+            "Producto: $$PQ=(3x^2-2x-1)(-x^2+1)=-3x^4+2x^3+4x^2-2x-1$$ ⇒ $$cp=-3,\\;gr=4$$",
+            "Suma: $$P+3Q=(3x^2-2x-1)+3(-x^2+1)=-2x+2$$ ⇒ $$cp=-2,\\;gr=1$$",
+            "Potencia: $$Q^2=(-x^2+1)^2=x^4-2x^2+1$$",
+            "Suma previa: $$P+2x=3x^2-2x-1+2x=3x^2-1$$ y por $$x$$: $$(P+2x)\\,x=3x^3-x$$",
+            "Producto final: $$(3x^3-x)(x^4-2x^2+1)=3x^7-7x^5+5x^3-x$$ ⇒ $$cp=3,\\;gr=7$$"
           ],
-          "respuesta": "3x^4 + 2x^2 - 3, cp=3, gr=4"
+          "respuesta": "PQ = -3x^{4}+2x^{3}+4x^{2}-2x-1;\\; P+3Q = -2x+2;\\; (P+2x)\\,x\\,Q^2 = 3x^{7}-7x^{5}+5x^{3}-x"
         },
         {
           "id": 2,
-          "consigna": "Calcular $(𝑃 + 2\\cdot 𝑥) \\cdot 𝑥 \\cdot 𝑄^2$, indicando en cada caso el coeficiente principal y el grado.a) $𝑃(𝑥) = 2𝑥^2 − 3$, $𝑄(𝑥) = 𝑥^4$",
+          "consigna": "Ejercicio 1.c — Calcular $$PQ$$, $$P+3Q$$ y $$(P+2x)\\,x\\,Q^2$$ indicando en cada caso el coeficiente principal y el grado. $$P(x)=x^2-x,\\;Q(x)=-x^2+3$$",
           "pasos": [
-            "((𝑃 + 2𝑥)𝑥𝑄^2)(𝑥) = $2𝑥^11 + 2𝑥^10 − 3𝑥^9$, cp((𝑃 + 2𝑥)𝑥𝑄2) = 2 y gr((𝑃 + 2𝑥)𝑥𝑄2) = 11",
-            "respuesta: $2x^11 + 2x^10 − 3x^9$, cp = 2, gr = 11"
+            "Producto: $$PQ=(x^2-x)(-x^2+3)=-x^4+x^3+3x^2-3x$$ ⇒ $$cp=-1,\\;gr=4$$",
+            "Suma: $$P+3Q=(x^2-x)+3(-x^2+3)=-2x^2-x+9$$ ⇒ $$cp=-2,\\;gr=2$$",
+            "Potencia: $$Q^2=(-x^2+3)^2=x^4-6x^2+9$$",
+            "Suma previa: $$P+2x=x^2-x+2x=x^2+x$$ y por $$x$$: $$(P+2x)\\,x=x^3+x^2$$",
+            "Producto final: $$(x^3+x^2)(x^4-6x^2+9)=x^7+x^6-6x^5-6x^4+9x^3+9x^2$$ ⇒ $$cp=1,\\;gr=7$$"
           ],
-          "respuesta": "2x^11 + 2x^10 -3x^9, cp = 2, gr = 11"
+          "respuesta": "PQ = -x^{4}+x^{3}+3x^{2}-3x;\\; P+3Q = -2x^{2}-x+9;\\; (P+2x)\\,x\\,Q^2 = x^{7}+x^{6}-6x^{5}-6x^{4}+9x^{3}+9x^{2}"
         },
         {
           "id": 3,
-          "consigna": "Calcular 𝑃𝑄, indicando en cada caso el coeficiente principal y el grado.b) $P(x) = 3x^2 − 2x − 1$, $Q(x) = −x^2 + 1$",
+          "consigna": "Ejercicio 1.d — Calcular $$PQ$$, $$P+3Q$$ y $$(P+2x)\\,x\\,Q^2$$ indicando en cada caso el coeficiente principal y el grado. $$P(x)=-2x+3,\\;Q(x)=x+2$$",
           "pasos": [
-            "(PQ)(x) = $−3x^4 + 2x^3 + 4x^2 − 2x − 1$, cp(PQ) = −3 y gr(PQ) = 4",
-            "respuesta:  $−3x^4 + 2x^3 + 4x^2 − 2x − 1$, cp = −3, gr = 4"
+            "Producto: $$PQ=(-2x+3)(x+2)=-2x^2-x+6$$ ⇒ $$cp=-2,\\;gr=2$$",
+            "Suma: $$P+3Q=(-2x+3)+3(x+2)=x+9$$ ⇒ $$cp=1,\\;gr=1$$",
+            "Potencia: $$Q^2=(x+2)^2=x^2+4x+4$$",
+            "Suma previa: $$P+2x=-2x+3+2x=3$$ y por $$x$$: $$(P+2x)\\,x=3x$$",
+            "Producto final: $$3x(x^2+4x+4)=3x^3+12x^2+12x$$ ⇒ $$cp=3,\\;gr=3$$"
           ],
-          "respuesta": "-3x^4 + 2x^3 +4x^2 + 2x - 1, cp = -3, gr = 4"
+          "respuesta": "PQ = -2x^{2}-x+6;\\; P+3Q = x+9;\\; (P+2x)\\,x\\,Q^2 = 3x^{3}+12x^{2}+12x"
         },
         {
           "id": 4,
-          "consigna": "Calcular 𝑃 + 3𝑄 , indicando en cada caso el coeficiente principal y el grado.b) $P(x) = 3x^2 − 2x − 1$, $Q(x) = −x^2 + 1$",
+          "consigna": "Ejercicio 2 — Determinar el grado de $$P$$ sabiendo que $$(1+x^2Q)\\,x\\,P$$ tiene grado $$11$$ y que $$\\deg(Q)=5$$.",
           "pasos": [
-            "(P + 3Q)(x) = $−2x + 2$, cp(P + 3Q) = −2 y gr(P + 3Q) = 1",
-            "respuesta: $−2x + 2$, cp = −2, gr = 1"
+            "$$\\deg(1+x^2Q)=\\max\\{0,2+\\deg Q\\}=7$$ porque $$\\deg(x^2Q)=2+5=7$$",
+            "Entonces: $$\\deg\\big((1+x^2Q)\\,x\\,P\\big)=\\deg(1+x^2Q)+\\deg x+\\deg P=7+1+\\deg P$$",
+            "Igualando a $$11$$: $$7+1+\\deg P=11\\Rightarrow \\deg P=3$$"
           ],
-          "respuesta": "-2x + 2, cp = -2, gr = 1"
+          "respuesta": "deg(P)=3"
         },
         {
           "id": 5,
-          "consigna": "Calcular $(𝑃 + 2\\cdot 𝑥) \\cdot 𝑥 \\cdot 𝑄^2$, indicando en cada caso el coeficiente principal y el grado.b) $P(x) = 3x^2 − 2x − 1$, $Q(x) = −x^2 + 1$",
+          "consigna": "Ejercicio 3 — Hallar, si existen, $$a,b,c\\in\\mathbb{R}$$ tales que $$x^2+8x=a+bx^2+c(x+1)(x+3)$$.",
           "pasos": [
-            "((P + 2x)xQ^2)(x) = $3x^7 − 7x^5 + 5x^3 − x$, cp((P + 2x)xQ^2) = 3 y gr((P + 2x)xQ^2) = 7",
-            "respuesta: $3x^7 − 7x^5 + 5x^3 − x$, cp = 3, gr = 7"
+            "Desarrollar: $$(x+1)(x+3)=x^2+4x+3$$",
+            "Reescribir el lado derecho: $$a+bx^2+c(x^2+4x+3)=(b+c)x^2+4cx+(a+3c)$$",
+            "Igualar coeficientes con $$x^2+8x+0$$: $$\\begin{cases} b+c=1\\\\ 4c=8\\\\ a+3c=0\\end{cases}$$",
+            "Resolver: $$c=2\\Rightarrow b=1-c=-1\\Rightarrow a=-3c=-6$$"
           ],
-          "respuesta": "3x^7 -7x^5 + 5x^3 - x, cp = 3, gr = 7"
+          "respuesta": "a=-6,\\; b=-1,\\; c=2"
         },
         {
           "id": 6,
-          "consigna": "Calcular 𝑃𝑄, indicando en cada caso el coeficiente principal y el grado.c) $P(x) = x^2 − x$, $Q(x) = −x^2 + 3$",
+          "consigna": "Ejercicio 4.a — Hallar el cociente y el resto de la división de $$P$$ por $$Q$$. $$P=2x^4-15x^2-5x+1,\\;Q=x-3$$",
           "pasos": [
-            "(PQ)(x) = $−x^4 + x^3 + 3x^2 − 3x$, cp(PQ) = −1 y gr(PQ) = 4",
-            "respuesta:  $−x^4 + x^3 + 3x^2 − 3x$, cp = −1, gr = 4"
+            "División sintética en $$x=3$$ con coeficientes $$[2,0,-15,-5,1]$$.",
+            "Bajar 2; multiplicar por 3 y sumar sucesivamente: se obtiene el cociente con coeficientes $$[2,6,3,4]$$ y resto $$13$$.",
+            "Por lo tanto: $$S(x)=2x^3+6x^2+3x+4,\\;R=13$$"
           ],
-          "respuesta": "-x^4 + x^3 + 3x^2 - 3x, cp = -1, gr = 4"
+          "respuesta": "Cociente: 2x^{3}+6x^{2}+3x+4;\\; Resto: 13"
         },
         {
           "id": 7,
-          "consigna": "Calcular 𝑃 + 3𝑄 , indicando en cada caso el coeficiente principal y el grado.c) $P(x) = x^2 − x$, $Q(x) = −x^2 + 3$",
+          "consigna": "Ejercicio 4.b — Hallar el cociente y el resto de la división de $$P$$ por $$Q$$. $$P=x^5-2x^3+4x^2-3x+4,\\;Q=x^2+1$$",
           "pasos": [
-            "(P + 3Q)(x) = $−2x^2 − x + 9$, cp(P + 3Q) = −2 y gr(P + 3Q) = 2",
-            "respuesta: $−2x^2 − x + 9$, cp = −2, gr = 2"
+            "Dividir: $$x^5/(x^2)=x^3\\Rightarrow x^3(x^2+1)=x^5+x^3$$; restar: queda $$-3x^3+4x^2-3x+4$$.",
+            "Luego: $$(-3x^3)/(x^2)=-3x\\Rightarrow -3x(x^2+1)=-3x^3-3x$$; restar: queda $$4x^2+4$$.",
+            "Finalmente: $$(4x^2)/(x^2)=4\\Rightarrow 4(x^2+1)=4x^2+4$$; resto $$0$$.",
+            "Así: $$S(x)=x^3-3x+4,\\;R=0$$ (Q divide a P)."
           ],
-          "respuesta": "-2x^2 - x + 9,cp = -2, gr = 2"
+          "respuesta": "Cociente: x^{3}-3x+4;\\; Resto: 0"
         },
         {
           "id": 8,
-          "consigna": "Calcular $(𝑃 + 2\\cdot 𝑥) \\cdot 𝑥 \\cdot 𝑄^2$, indicando en cada caso el coeficiente principal y el grado.c) $P(x) = x^2 − x$, $Q(x) = −x^2 + 3$",
+          "consigna": "Ejercicio 4.c — Hallar el cociente y el resto de la división de $$P$$ por $$Q$$. $$P=4x^5+x^3+x+1,\\;Q=2x^2-x+1$$",
           "pasos": [
-            "((P + 2x)xQ^2)(x) = $x^7 + x^6 − 6x^5 − 6x^4 + 9x^3 + 9x^2$, cp((P + 2x)xQ^2) = 3 y gr((P + 2x)xQ^2) = 7",
-            "respuesta: $x^7 + x^6 − 6x^5 − 6x^4 + 9x^3 + 9x^2$, cp = 3, gr = 7"
+            "Primer término: $$(4x^5)/(2x^2)=2x^3\\Rightarrow 2x^3Q=4x^5-2x^4+2x^3$$; restar: $$2x^4-x^3+x+1$$.",
+            "Segundo término: $$(2x^4)/(2x^2)=x^2\\Rightarrow x^2Q=2x^4-x^3+x^2$$; restar: $$-x^2+x+1$$.",
+            "Tercer término: $$(-x^2)/(2x^2)=-\\tfrac{1}{2}\\Rightarrow -\\tfrac{1}{2}Q=-x^2+\\tfrac{1}{2}x-\\tfrac{1}{2}$$; restar: $$\\tfrac{1}{2}x+\\tfrac{3}{2}$$.",
+            "Con grado menor que $$Q$$, ese es el resto."
           ],
-          "respuesta": "x^7 + x^6 -6x^5 -6x^4 + 9x^3 + 9x^2, cp = 3, gr = 7"
+          "respuesta": "Cociente: 2x^{3}+x^{2}-\\tfrac{1}{2};\\; Resto: \\tfrac{1}{2}x+\\tfrac{3}{2}"
         },
         {
           "id": 9,
-          "consigna": "Calcular 𝑃𝑄, indicando en cada caso el coeficiente principal y el grado.d) $P(x) = −2x + 3$, $Q(x) = x + 2$",
+          "consigna": "Ejercicio 5 — Determinar todos los $$a\\in\\mathbb{R}$$ tales que $$x^4-2x^3+2x^2-8x-8$$ es divisible por $$x^2+a$$",
           "pasos": [
-            "(PQ)(x) = $−2x^2 − x + 6$, cp(PQ) = −2 y gr(PQ) = 2",
-            "respuesta:  $−2x^2 − x + 6$, cp = −2, gr = 2"
+            "Si es divisible, existe $$x^2+bx+c$$ tal que $$(x^2+a)(x^2+bx+c)=x^4-2x^3+2x^2-8x-8$$",
+            "Desarrollar: $$x^4+bx^3+(c+a)x^2+abx+ac$$",
+            "Igualar coeficientes: $$b=-2,\\; c+a=2,\\; ab=-8,\\; ac=-8$$",
+            "De $$ab=-8$$ con $$b=-2$$ se obtiene $$a=4$$; entonces $$c=2-a=-2$$; verifica $$ac=4(-2)=-8$$"
           ],
-          "respuesta": "-2x^2 - x +6, cp = -2, gr = 2"
+          "respuesta": "a=4"
         },
         {
           "id": 10,
-          "consigna": "Calcular 𝑃 + 3𝑄 , indicando en cada caso el coeficiente principal y el grado.d) $P(x) = −2x + 3$, $Q(x) = x + 2$",
+          "consigna": "Ejercicio 6.a — Determinar todos los $$a\\in\\mathbb{R}$$ tales que $$P(2)=-6$$ para $$P(x)=ax^2-x$$.",
           "pasos": [
-            "(P + 3Q)(x) = $x + 9$, cp(P + 3Q) = 1 y gr(P + 3Q) = 1",
-            "respuesta: $x + 9$, cp = 1, gr = 1"
+            "Calculamos: $$P(2)=4a-2$$",
+            "Igualamos a $$-6$$: $$4a-2=-6\\Rightarrow 4a=-4\\Rightarrow a=-1$$"
           ],
-          "respuesta": "x + 9, cp = 1, gr = 1"
+          "respuesta": "a = -1"
         },
         {
           "id": 11,
-          "consigna": "Calcular $(𝑃 + 2\\cdot 𝑥) \\cdot 𝑥 \\cdot 𝑄^2$, indicando en cada caso el coeficiente principal y el grado.d) $P(x) = −2x + 3$, $Q(x) = x + 2$",
+          "consigna": "Ejercicio 6.b — Determinar todos los $$a\\in\\mathbb{R}$$ tales que $$P(x)=2x^4-3ax^2+1-5a$$ tenga a cero como raíz.",
           "pasos": [
-            "((P + 2x)xQ^2)(x) = $3x^3 + 12x^2 + 12x$, cp((P + 2x)xQ^2) = 3 y gr((P + 2x)xQ^2) = 3",
-            "respuesta: $3x^3 + 12x^2 + 12x$, cp = 3, gr = 3"
+            "Si 0 es raíz entonces $$P(0)=1-5a=0$$",
+            "De aquí: $$1-5a=0\\Rightarrow a=\\tfrac{1}{5}$$"
           ],
-          "respuesta": "3x^3 + 12x^2 + 12x, cp= 3, gr = 3"
+          "respuesta": "a = \\tfrac{1}{5}"
         },
         {
           "id": 12,
-          "consigna": "Determinar el grado del polinomio P sabiendo que $(1 + x^2 \\cdot Q)\\cdot x\\cdot P$ tiene grado 11 y que Q es un polinomio de grado 5.",
+          "consigna": "Ejercicio 6.c — Determinar todos los $$a\\in\\mathbb{R}$$ tales que $$P(-1)=a$$ para $$P(x)=ax^2+ax+5$$.",
           "pasos": [
-            "es razonamiento los $x^2 \\cdot Q^5$ se suman eso da $xQ^7$ el 1 + no importa por que pide saber el grado de P,($xQ^7$)\\cdot x = $xQ^8$ y queda que 11-8 = 3 por ende P = 3 ",
-            "respuesta: P = 3"
+            "Calculamos: $$P(-1)=a\\cdot 1 + a\\cdot(-1) + 5 = 5$$",
+            "Igualando a $$a$$: $$5 = a\\Rightarrow a=5$$"
           ],
-          "respuesta": "P = 3"
+          "respuesta": "a = 5"
         },
         {
-          "id": 12,
-          "consigna": "Hallar, si existen, a, b, c ∈ R tales que $x^2 + 8x = a + bx^2 + c(x + 1)(x + 3)$",
+          "id": 13,
+          "consigna": "Ejercicio 7.a — Determinar todas las raíces de $$P(x)=x^{2}+(1-i)x+2-2i$$ en $$\\mathbb{C}$$.",
           "pasos": [
-            "Empecemos por este: $a + bx^2 + c(x + 1)(x + 3)$",
-            "$a + bx^2 + c(x^2 + 3x + x + 3)$",
-            "$a + bx^2 + cx^2 + 3cx + cx + 3c$",
-            "$a + (b + c)x^2 + 4cx + 3c$",
-            "$(b + c)x^2 + 4cx + a + 3c$",
-            "ahora igualamos coeficiente por coeficiente con $x^2 + 8x$ y despejando conseguiremos a,b,c",
-            "$x^2 = (b + c)x^2$ ---> $\\frac{x^2}{x^2} = b + c$ ---> 1 = b + c ---> como c = 2, b = -1",
-            "$8x = 4cx$ ---> $\\frac{8x}{x} = 4c$ ---> $\\frac{8}{4} = c$ ---> c = 2",
-            "$0 = a + 3c$ ---> como c = 2, a = -6",
-            "respuesta: a,b,c = (-6 , -1 , 2)"
+            "Usamos la fórmula cuadrática: raíces de $$x^{2}+(1-i)x+(2-2i)=0$$ son $$x=\\frac{-(1-i)\\pm\\sqrt{(1-i)^2-4(2-2i)}}{2}$$.",
+            "Calculando el discriminante: $$(1-i)^2-8+8i = -8+6i$$ y su raíz cuadrada da $$\\pm(\\,2\\,\\mathrm{i}\\, )$$ (ver cálculo).",
+            "Entonces las raíces son $$x=2\\,\\mathrm{i}\\quad\\text{y}\\quad x=-1 - i$$."
           ],
-          "respuesta": "a,b,c = ( -6, -1, 2 )"
+          "respuesta": "Raíces: $2i$ y $-1 - i$"
+        },
+        {
+          "id": 14,
+          "consigna": "Ejercicio 7.b — Determinar todas las raíces de $$P(x)=i x^{6}-1$$ en $$\\mathbb{C}$$.",
+          "pasos": [
+            "Igualamos: $$i x^{6}=1\\Rightarrow x^{6}=1/i=-i$$",
+            "Escribimos $-i=\\mathrm{e}^{-i\\pi/2}$, por lo que las raíces son $$x=\\mathrm{e}^{i(-\\pi/12 + k\\pi/3)}\\; (k=0,1,\\dots,5)$$, es decir las seis raíces 6-ésimas de $-i$."
+          ],
+          "respuesta": "Raíces: $x=\\exp\\big(i(-\\pi/12 + k\\pi/3)\\big)$ para $k=0,1,\\dots,5$."
+        },
+        {
+          "id": 15,
+          "consigna": "Ejercicio 8.a — Determinar todas las raíces de $$P(x)=3x^{3}+x^{2}+12x+4$$ y factorizar en $$\\mathbb{C}[x]$$ y $$\\mathbb{R}[x]$$.",
+          "pasos": [
+            "Factorizando se obtiene $$P(x)=(3x+1)(x^{2}+4)$$.",
+            "Por tanto las raíces son $$x=-\\tfrac{1}{3},\\; x=2i,\\; x=-2i$$."
+          ],
+          "respuesta": "Factorización: $(3x+1)(x^{2}+4)$. Raíces: $-1/3,\\;\\pm 2i$."
+        },
+        {
+          "id": 16,
+          "consigna": "Ejercicio 8.b — Determinar todas las raíces de $$P(x)=\\tfrac{1}{3}x^{3}+2x^{2}+\\tfrac{2}{3}x-7$$.",
+          "pasos": [
+            "Multiplicando por 3: $x^{3}+6x^{2}+2x-21=(x+3)(x^{2}+3x-7)$",
+            "Las raíces son: $$x=-3,\\; x=\\dfrac{-3\\pm\\sqrt{37}}{2}$$."
+          ],
+          "respuesta": "Raíces: $-3,\\;\\dfrac{-3\\pm\\sqrt{37}}{2}$. Factorización: $\\tfrac{1}{3}(x+3)(x^{2}+3x-7)$."
+        },
+        {
+          "id": 17,
+          "consigna": "Ejercicio 8.c — Determinar todas las raíces de $$P(x)=x^{4}+\\tfrac{7}{2}x^{3}+\\tfrac{3}{2}x^{2}-2x-1$$.",
+          "pasos": [
+            "Factorizando: $$P(x)=\\tfrac{1}{2}(x+1)(2x+1)(x^{2}+2x-2)$$",
+            "Las raíces son $$x=-1,\\; x=-\\tfrac{1}{2},\\; x=-1\\pm\\sqrt{3}\\,.$$"
+          ],
+          "respuesta": "Raíces: $-1, -1/2, -1\\pm\\sqrt{3}$. Factorización dada arriba."
+        },
+        {
+          "id": 18,
+          "consigna": "Ejercicio 8.d — Determinar todas las raíces de $$P(x)=(5x^{4}+5)(x^{2}-2)$$.",
+          "pasos": [
+            "De $x^{2}-2=0$ obtenemos $x=\\pm\\sqrt{2}$.",
+            "De $5x^{4}+5=0$ se obtiene $x^{4}=-1$, cuyas raíces son las cuatro raíces 4-ésimas de $-1$, es decir $$x=\\exp\\big(i(\\tfrac{\\pi}{4}+\\tfrac{k\\pi}{2})\\big),\\;k=0,1,2,3.$$",
+            "En forma real: $x^{4}+1=(x^{2}+\\sqrt{2}x+1)(x^{2}-\\sqrt{2}x+1)$."
+          ],
+          "respuesta": "Raíces: $\\pm\\sqrt{2}$ y las cuatro raíces de $x^{4}=-1$ (complejas)."
+        },
+        {
+          "id": 19,
+          "consigna": "Ejercicio 8.e — Determinar todas las raíces de $$P(x)=4x^{4}-9x^{2}-9$$.",
+          "pasos": [
+            "Poniendo $y=x^{2}$: $4y^{2}-9y-9=0\\Rightarrow y=3\\text{ o }y=-\\tfrac{3}{4}$.",
+            "Por tanto $$x=\\pm\\sqrt{3}\\quad\\text{o}\\quad x=\\pm\\tfrac{\\sqrt{3}}{2}i$$.",
+            "Factorización real: $$4(x^{2}-3)(x^{2}+\\tfrac{3}{4})$$."
+          ],
+          "respuesta": "Raíces: $\\pm\\sqrt{3},\\; \\pm \\tfrac{\\sqrt{3}}{2}i$."
+        },
+        {
+          "id": 20,
+          "consigna": "Ejercicio 8.f — Determinar todas las raíces de $$P(x)=x^{4}+5x^{3}+9x^{2}+8x+4$$.",
+          "pasos": [
+            "Factorizando: $$P(x)=(x+2)^{2}(x^{2}+x+1)$$.",
+            "Raíces: $$x=-2\\; (\\text{multiplicidad }2),\\; x=\\dfrac{-1\\pm i\\sqrt{3}}{2}\\,.$$"
+          ],
+          "respuesta": "Raíces y factorización indicadas arriba."
+        },
+        {
+          "id": 21,
+          "consigna": "Ejercicio 8.g — Determinar todas las raíces de $$P(x)=x^{4}-x^{3}-9x^{2}-x-10$$ sabiendo que $i$ es raíz.",
+          "pasos": [
+            "Si $i$ es raíz, su conjugado $-i$ también lo es. Dividiendo por $x^{2}+1$ se obtiene el cociente $x^{2}-x-10$.",
+            "Factorizando: $x^{2}-x-10=(x-5)(x+2)$.",
+            "Por tanto las raíces son $i,-i,5,-2$."
+          ],
+          "respuesta": "Raíces: $i,-i,5,-2$. Factorización: $(x^{2}+1)(x-5)(x+2)$."
+        },
+        {
+          "id": 22,
+          "consigna": "Ejercicio 9.a — Determinar todas las raíces de $$P(x)=x^{4}-x^{3}+3x^{2}-4x-4$$ sabiendo que tiene una raíz imaginaria pura.",
+          "pasos": [
+            "Factorizando se obtiene $$P(x)=(x^{2}+4)(x^{2}-x-1)$$",
+            "Raíces: $$x=\\pm 2i,\\; x=\\dfrac{1\\pm\\sqrt{5}}{2}$$."
+          ],
+          "respuesta": "Raíces indicadas arriba."
+        },
+        {
+          "id": 23,
+          "consigna": "Ejercicio 9.b — Determinar todas las raíces de $$P(x)=x^{3}-(3+3i)x^{2}+8ix+4-4i$$ sabiendo que tiene una raíz real.",
+          "pasos": [
+            "Cálculo (o búsqueda de raíces) muestra que las raíces son $$x=2,\\; x=2i,\\; x=1+i$$.",
+            "Por tanto $$P(x)=(x-2)(x-2i)(x-1-i)$$."
+          ],
+          "respuesta": "Raíces: $2,\\;2i,\\;1+i$."
+        },
+        {
+          "id": 24,
+          "consigna": "Ejercicio 10.a — Determinar la multiplicidad de $z=2$ para $$P(x)=(x^{2}+4)(x-2)^{3}(x^{3}-8)$$.",
+          "pasos": [
+            "Notar que $x^{3}-8=(x-2)(x^{2}+2x+4)$ aporta un factor $(x-2)$ adicional.",
+            "Total de factores $(x-2)$: $3+1=4$ por tanto la multiplicidad de $2$ es $4$."
+          ],
+          "respuesta": "Multiplicidad de $z=2$ es $4$."
+        },
+        {
+          "id": 25,
+          "consigna": "Ejercicio 10.b — Determinar la multiplicidad de $z=i$ para $$P(x)=x^{6}+x^{4}-x^{2}-1$$.",
+          "pasos": [
+            "Factorizando: $$P(x)=(x-1)(x+1)(x^{2}+1)^{2}$$",
+            "Por tanto $x^{2}+1$ aparece al cuadrado, de modo que $i$ es raíz de multiplicidad $2$."
+          ],
+          "respuesta": "Multiplicidad de $i$ es $2$."
+        },
+        {
+          "id": 26,
+          "consigna": "Ejercicio 10.c — Determinar la multiplicidad de $z=1$ para $$P(x)=2x^{4}-7x^{3}+9x^{2}-5x+1$$.",
+          "pasos": [
+            "Factorizando: $$P(x)=(x-1)^{3}(2x-1)$$",
+            "Por tanto la multiplicidad de $1$ es $3$."
+          ],
+          "respuesta": "Multiplicidad de $1$ es $3$."
+        },
+        {
+          "id": 27,
+          "consigna": "Ejercicio 10.d — Determinar la multiplicidad de $z=\\tfrac{1}{2}$ para $$P(x)=2x^{4}-7x^{3}+9x^{2}-5x+1$$.",
+          "pasos": [
+            "De la factorización anterior el factor lineal restante es $(2x-1)$, que da raíz $x=1/2$ de multiplicidad $1$."
+          ],
+          "respuesta": "Multiplicidad de $1/2$ es $1$."
+        },
+        {
+          "id": 28,
+          "consigna": "Ejercicio 11.a — Sabiendo que P tiene una raíz múltiple, hallar todas sus raíces para $$P(x)=4x^{3}+8\\sqrt{3}x^{2}+15x+3\\sqrt{3}$$ y escribirlo como producto de polinomios de grado 1.",
+          "pasos": [
+            "Factorizando se obtiene $$P(x)=4(x+\\sqrt{3})(x+\\tfrac{\\sqrt{3}}{2})^{2}$$",
+            "Raíces: $x=-\\sqrt{3}$ y $x=-\\tfrac{\\sqrt{3}}{2}$ (esta última con multiplicidad 2)."
+          ],
+          "respuesta": "Producto lineal: $4(x+\\sqrt{3})(x+\\tfrac{\\sqrt{3}}{2})^{2}$."
+        },
+        {
+          "id": 29,
+          "consigna": "Ejercicio 11.b — Sabiendo que P tiene una raíz múltiple, hallar todas sus raíces para $$P(x)=x^{3}+3ix^{2}+4i$$.",
+          "pasos": [
+            "Factorizando: $$P(x)=(x-i)(x+2i)^{2}$$",
+            "Raíces: $x=i$ (simple), $x=-2i$ (multiplicidad 2)."
+          ],
+          "respuesta": "Producto lineal: $(x-i)(x+2i)^{2}$."
+        },
+        {
+          "id": 30,
+          "consigna": "Ejercicio 12 — Sea $$P(x)=3x^{5}+ax^{4}+ax+3$$. Hallar $$a\\in\\mathbb{R}$$ para que $-1$ sea raíz múltiple. Para ese valor, calcular la multiplicidad de $-1$ y escribir $P$ como producto de factores irreducibles en $\\mathbb{R}[x]$ y $\\mathbb{C}[x]$.",
+          "pasos": [
+            "Imponemos $$P(-1)=0$$ y $$P'(-1)=0$$ para que $-1$ sea raíz múltiple.",
+            "Resolviendo se obtiene $$a=5$$.",
+            "Para $a=5$: $$P(x)=(x+1)^{3}(3x^{2}-4x+3)$$, por tanto la multiplicidad de $-1$ es $3$.",
+            "En $\\mathbb{R}[x]$ la factorización es $(x+1)^{3}(3x^{2}-4x+3)$; en $\\mathbb{C}[x]$ se factoriza más (las raíces del cuadrático son complejas)."
+          ],
+          "respuesta": "a=5; multiplicidad de -1 es 3; factorización: $(x+1)^{3}(3x^{2}-4x+3)$."
+        },
+        {
+          "id": 31,
+          "consigna": "Ejercicio 13.a — Hallar $P\\in\\mathbb{C}[x]$ de grado mínimo que tenga a $-1$ como raíz, a $2+3i$ como raíz múltiple y que verifique $P(1)=20$.",
+          "pasos": [
+            "Polinomio de grado mínimo: $$P(x)=k(x+1)(x-(2+3i))^{2}$$ con $k\\in\\mathbb{C}$.",
+            "Imponemos $$P(1)=20$$ y se obtiene $$k=\\dfrac{10}{(1+3i)^{2}}$$ (una expresión compleja).",
+            "Se puede expandir para obtener los coeficientes explícitos complejos."
+          ],
+          "respuesta": "Un polinomio que cumple es $$P(x)=\\dfrac{10}{(1+3i)^{2}}(x+1)(x-(2+3i))^{2}$$ (se puede expandir)."
+        },
+        {
+          "id": 32,
+          "consigna": "Ejercicio 13.b — Hallar $P\\in\\mathbb{R}[x]$ de grado mínimo que tenga a $-1$ y a $2+3i$ como raíces y que verifique $P(2)=3$.",
+          "pasos": [
+            "Por ser reales, si $2+3i$ es raíz también lo es su conjugado $2-3i$.",
+            "Polinomio de grado 3: $$P(x)=k(x+1)((x-2)^{2}+9)$$.",
+            "Imponiendo $$P(2)=3$$ da $$k=\\tfrac{1}{9}$$, luego $$P(x)=\\tfrac{1}{9}(x+1)((x-2)^{2}+9)$$."
+          ],
+          "respuesta": " $$P(x)=\\dfrac{1}{9}(x+1)((x-2)^{2}+9)$$."
+        },
+        {
+          "id": 33,
+          "consigna": "Ejercicio 13.c — Hallar $P\\in\\mathbb{R}[x]$ mónico de grado mínimo que tenga a $-1$ como raíz y a $2+3i$ como raíz doble.",
+          "pasos": [
+            "Como los coeficientes son reales, la conjugada $2-3i$ también debe ser raíz doble.",
+            "Polinomio mónico de grado mínimo: $$P(x)=(x+1)\\big((x-2)^{2}+9\\big)^{2}$$ (grado 5) y es ya mónico."
+          ],
+          "respuesta": " $$P(x)=(x+1)\\big((x-2)^{2}+9\\big)^{2}$$ (mónico)."
+        },
+        {
+          "id": 34,
+          "consigna": "Ejercicio 14.a — Orden de contacto entre $$y=f(x)=-3x^{5}+x^{3}+2x^{2}$$ y $$y=g(x)=0$$ en $$x_{0}=0$$.",
+          "pasos": [
+            "Calculamos $$f(x)-g(x)= -3x^{5}+x^{3}+2x^{2}=x^{2}(-3x^{3}+x+2)$$",
+            "El menor exponente de $x$ que aparece es $2$, por tanto el orden de contacto es $2$."
+          ],
+          "respuesta": "Orden de contacto = 2."
+        },
+        {
+          "id": 35,
+          "consigna": "Ejercicio 14.b — Orden de contacto entre $$y=f(x)=x^{5}+5x^{3}-3x^{4}-7x^{2}+6x-2$$ y $$y=0$$ en $$x_{0}=1$$.",
+          "pasos": [
+            "Comprobando derivadas: $$f(1)=f'(1)=f''(1)=0$$ pero $$f^{(3)}(1)\\neq 0$$ (se obtiene 18),",
+            "Por tanto la multiplicidad es $3$ y el orden de contacto es $3$."
+          ],
+          "respuesta": "Orden de contacto = 3."
+        },
+        {
+          "id": 36,
+          "consigna": "Ejercicio 14.c — Orden de contacto entre $$y=f(x)=x^{3}-2x^{2}+x+1$$ y $$y=g(x)=-2x^{2}+x+1$$ en $$x_{0}=0$$.",
+          "pasos": [
+            "Calculamos $$f-g=x^{3}$$, que tiene factor $x^{3}$, por tanto la multiplicidad en $0$ es $3$."
+          ],
+          "respuesta": "Orden de contacto = 3."
+        },
+        {
+          "id": 37,
+          "consigna": "Ejercicio 14.d — Orden de contacto entre $$y=f(x)=x^{4}+x^{3}+x^{2}+5$$ y $$y=g(x)=-2x^{3}+1$$ en $$x_{0}=-2$$.",
+          "pasos": [
+            "Calculamos $$f-g=x^{4}+3x^{3}+x^{2}+4$$ y evaluamos en $x=-2$: el valor y la primera derivada anulan, la segunda derivada es distinta de cero (14),",
+            "Por tanto la multiplicidad es $2$."
+          ],
+          "respuesta": "Orden de contacto = 2."
+        },
+        {
+          "id": 38,
+          "consigna": "Ejercicio 15.a — Encontrar la ecuación de una parábola que pase por los puntos $(1,-1),(0,1),(2,2)$.",
+          "pasos": [
+            "Sea $P(x)=ax^{2}+bx+c$. De $(0,1)$ se obtiene $c=1$.",
+            "Con $(1,-1)$: $a+b+1=-1\\Rightarrow a+b=-2$.",
+            "Con $(2,2)$: $4a+2b+1=2\\Rightarrow 4a+2b=1$.",
+            "Resolviendo: $a=\\tfrac{5}{2},\\; b=-\\tfrac{9}{2},\\; c=1$."
+          ],
+          "respuesta": "$P(x)=\\tfrac{5}{2}x^{2}-\\tfrac{9}{2}x+1$."
+        },
+        {
+          "id": 39,
+          "consigna": "Ejercicio 15.b — Encontrar un polinomio $$P$$ de grado a lo sumo $3$ que verifique $$P(1)=2,\\;P(0)=-1,\\;P(2)=2,\\;P(-1)=1$$.",
+          "pasos": [
+            "Sea $P(x)=ax^{3}+bx^{2}+cx+d$. De $P(0)=-1$ se obtiene $d=-1$.",
+            "Imponiendo los otros tres valores y resolviendo el sistema se obtiene:",
+            " $$a=-\\frac{4}{3},\\; b=\\frac{5}{2},\\; c=\\frac{11}{6},\\; d=-1$$."
+          ],
+          "respuesta": "$P(x)=-\\tfrac{4}{3}x^{3}+\\tfrac{5}{2}x^{2}+\\tfrac{11}{6}x-1$."
         }
       ]
     },
